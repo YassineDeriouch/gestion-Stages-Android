@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#8AFFFFFF"
+        android:gravity="center"
+        android:text="Gestion des niveaux"
+        android:textAlignment="center"
+        android:textColor="#411F85"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="212dp"
+        android:layout_x="30dp"
+        android:layout_y="296dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_list_niv"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#3949AB"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Lister/supprmer les niveaux"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+        <Button
+            android:id="@+id/btn_ajouter_niv"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#3949AB"
+            android:fontFamily="sans-serif"
+            android:text="Ajouter un niveau"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+    </LinearLayout>
+
+
+</AbsoluteLayout>

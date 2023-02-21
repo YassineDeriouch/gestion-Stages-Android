@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.activity_respo">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="74dp"
+        android:layout_x="58dp"
+        android:layout_y="16dp"
+        android:text="Espace Responsable"
+        android:textAlignment="center"
+        android:textColor="#1E88E5"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <Button
+        android:id="@+id/ProfileResBtn"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="284dp"
+        android:layout_x="87dp"
+        android:layout_y="302dp"
+        android:text="mon profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gest_etd"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_x="88dp"
+        android:layout_y="409dp"
+        android:text="Gestion des étudiants" />
+</AbsoluteLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input"
+    tools:context=".activities.gestion_comptes.gestion_prof.activity_import_doc_prof">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="411dp"
+        android:layout_height="149dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:gravity="center"
+        android:text="Envoyer un fichier"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/import_doc_etd_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="354dp"
+        android:src="@drawable/icons8_upload_128px_9" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="255dp"
+        android:text="Appuyer sur l'image dessous pour  envoyer votre ficheir:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="499dp"
+        android:text="la taille max allouée : 100 MB" />
+
+</AbsoluteLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="411dp"
+        android:layout_height="149dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#8AFFFFFF"
+        android:gravity="center"
+        android:text="Gestion des résponsables de stage"
+        android:textAlignment="center"
+        android:textColor="#344D59"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="275dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="187dp">
+
+        <Button
+            android:id="@+id/btn_ajout_respo"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#709CA7"
+            android:fontFamily="sans-serif"
+            android:text="Ajouter un résponsable"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            app:layout_anchorGravity="start|bottom" />
+
+        <Button
+            android:id="@+id/btn_affich_respo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:backgroundTint="#709CA7"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="Lister les responsables éxistants"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</AbsoluteLayout>

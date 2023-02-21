@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activities.gestion_documents.activity_gerer_document_etd">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="411dp"
+        android:layout_height="149dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#8AFFFFFF"
+        android:gravity="center"
+        android:text="Gestion des documents"
+        android:textAlignment="center"
+        android:textColor="#065B65"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="209dp"
+        android:layout_x="42dp"
+        android:layout_y="287dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_importer_doc_etd"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="50sp"
+            android:text="Importer vos documents"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_visualiser_documents_etd"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Télécharger les documents"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+    </LinearLayout>
+</AbsoluteLayout>

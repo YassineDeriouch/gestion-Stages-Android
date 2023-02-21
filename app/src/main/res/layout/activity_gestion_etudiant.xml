@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activities.gestion_comptes.gestion_etd.activity_gestion_etudiant">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#8AFFFFFF"
+        android:gravity="center"
+        android:text="Gestion des étudiants"
+        android:textAlignment="center"
+        android:textColor="#81657C"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <LinearLayout
+        android:layout_width="363dp"
+        android:layout_height="456dp"
+        android:layout_x="26dp"
+        android:layout_y="213dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_add_etd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="#F6B12D"
+            android:text="Insérer les étudiants"
+            android:textAllCaps="false"
+            android:textColorLink="#5E35B1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lister_etd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="#F6B12D"
+            android:text="Lister les étudiants"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_affecter_etd_prof"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#F6B12D"
+            android:fontFamily="sans-serif-medium"
+            android:text="Affécter un etudiant à un encadrant"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_reunion"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20sp"
+            android:backgroundTint="#F6B12D"
+            android:text="Organiser des réunions"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</AbsoluteLayout>

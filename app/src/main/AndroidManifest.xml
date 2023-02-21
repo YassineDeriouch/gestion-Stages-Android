@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_get_reunion_prof"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_etd.activity_get_reunion_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_creer_reunion"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_get_doc_by_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_dashboard_respo"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_documents.activity_gerer_document"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_etd.activity_import_doc_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_dashboard_prof"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_affecter_prof_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_profile_prof"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_get_prof"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_creer_compte_prof"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_prof.activity_gerer_prof"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_etd.activity_get_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_etd.activity_profile_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_get_respo"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_etd.activity_ajouter_etd"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_etd.activity_gestion_etudiant"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_etab.activity_update_etab"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_etab.activity_get_etab"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_niv.activity_update_niv"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_profile_Respo"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_niv.activity_get_niv"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login_PROF_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login_ETD_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login_ADMIN_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login_RESPO_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.choixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_gerer_respo"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.activity_gestion_comptes"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_comptes.gestion_respo.activity_creer_compte_respo"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_niv.activity_ajouter_niv"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_niv.activity_gestion_niv"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_etab.activity_ajouter_etab"
+            android:exported="false" />
+        <activity
+            android:name=".activities.gestion_etab.activity_gestion_etab"
+            android:exported="false" />
+        <activity
+            android:name=".activities.activity_professeur"
+            android:exported="false" />
+        <activity
+            android:name=".activities.activity_etudiant"
+            android:exported="false" />
+        <activity
+            android:name=".activities.activity_admin"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

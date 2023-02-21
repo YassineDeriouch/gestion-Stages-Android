@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activities.activity_etudiant">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="411dp"
+        android:layout_height="149dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#8AFFFFFF"
+        android:gravity="center"
+        android:text="Espace étudiant"
+        android:textAlignment="center"
+        android:textColor="#AA00FF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="474dp"
+        android:layout_x="19dp"
+        android:layout_y="219dp"
+        android:background="#0000ACC1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="355dp"
+            android:layout_height="209dp"
+            android:layout_margin="7dp"
+            android:orientation="horizontal"
+            tools:ignore="DuplicateClickableBoundsCheck">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_upload_doc_etd"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="98dp"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/icons8_upload_128px_9" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Importer vos documents"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="envoyer vos  rapports, attestation de stage, fiche de stage..."
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_download_doc_etd"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="19dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_download_doc_etd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="98dp"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/icons8_download_128px" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Télécharger les documents"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:layout_gravity="clip_vertical"
+                        android:gravity="center"
+                        android:text="Télécharger les documents reçus" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="356dp"
+            android:layout_height="160dp"
+            android:layout_margin="7dp"
+            android:layout_marginTop="20sp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_profile_etd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icons8_student_male_80px_2"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Voir mon profile"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:text="Voir mon profile"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_etd_reunion"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:backgroundTint="#FFFFFF"
+            android:shadowColor="#000000"
+            android:text="Reunion"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</AbsoluteLayout>

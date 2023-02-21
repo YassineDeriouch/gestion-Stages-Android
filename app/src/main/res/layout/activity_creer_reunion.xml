@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input"
+    tools:context=".activities.gestion_comptes.gestion_respo.activity_creer_reunion">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="328dp"
+        android:layout_height="107dp"
+        android:layout_x="43dp"
+        android:layout_y="20dp"
+        android:gravity="center"
+        android:text="Créer une reunion"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="411dp"
+        android:layout_x="29dp"
+        android:layout_y="174dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="209dp"
+            android:layout_height="31dp"
+            android:text="Matricule du professeur : "
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_prof_reunion"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="ID Professeur" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_etd_reunion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID d'étudiant" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/libelle_reunion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Motif de la reunion" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/salle_reunion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Salle" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date_reunion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date de reunion"
+                 />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_creer_reunion"
+        android:layout_width="224dp"
+        android:layout_height="59dp"
+        android:layout_x="94dp"
+        android:layout_y="593dp"
+        android:backgroundTint="#039BE5"
+        android:text="Valider"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+</AbsoluteLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/drawable/border.xml" value="0.22" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/drawable/cercleshape.xml" value="0.2595" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/drawable/corner.xml" value="0.2595" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/drawable/shape.xml" value="0.22" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout-w936dp/activity_niveau.xml" value="0.264" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout-w936dp/activity_niveau_list.xml" value="0.2" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_affecter_prof_etd.xml" value="0.264" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_ajouter_etab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_ajouter_etd.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_ajouter_niv.xml" value="0.2" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_choix.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_compte_respo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_creer_compte_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_creer_compte_respo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_creer_reunion.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_dashboard_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_dashboard_respo.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_edit_niv.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_etudiant.xml" value="0.264" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gerer_document.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gerer_document_etd.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gerer_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gerer_respo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gestion_comptes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gestion_etab.xml" value="0.264" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gestion_etudiant.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_gestion_niv.xml" value="0.264" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_doc_by_etd.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_doc_by_etd_list.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_etab.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_etab_list.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_etd.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_etd_by_niveau.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_etd_list.xml" value="0.536" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_niv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_niveau.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_niveau2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_niveaux.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_niveaux_list.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_prof_list.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_respo.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_respo_list.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_reunion_etd.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_reunion_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_get_reunion_prof_list.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_helper.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_import_doc_ETD.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_import_doc_etd.xml" value="0.2" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_import_doc_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_list_doc_by_etd.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_login.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_login_admin.xml" value="0.24452554744525548" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_login_etd.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_login_prof.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_login_respo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_professeur.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_profile_etd.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_profile_prof.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_recuperer_Niveau.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_recuperer_niveau.xml" value="0.2" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_recuperer_niveau_list.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_respo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_show_niveau.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_supp_niv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_telecharger_doc_etd.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_update_etab.xml" value="0.25" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/activity_update_niv.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/admin_main_design_tst.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/first_activity.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/login_activity.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/main_activity.xml" value="0.2309512541410317" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/layout/second_activity.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/affecter_afficher_etds_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/compte_respo_menu_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/get_reunion_prof_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/list_etd_menu_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/list_prof_menu_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/list_respo_menu_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/main_etd_menu_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/main_prof_meny_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/niveau_menu_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/yderi/Desktop/CS/Android/MyApplication2/app/src/main/res/menu/respo_menu_toolbar.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="androidx.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="1" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="9" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="1" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="2" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="5" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="7" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="9" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

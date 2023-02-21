@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activities.Login_PROF_Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="264dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="61dp"
+        android:layout_y="89dp"
+        android:fontFamily="serif"
+        android:text="Connexion"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="217dp"
+        android:layout_x="26dp"
+        android:layout_y="265dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="#00ACC1"
+            app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="55dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/purple_200"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="mot de passe"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/seConnecter"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_x="84dp"
+        android:layout_y="568dp"
+        android:text="Se connecter"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+
+</AbsoluteLayout>

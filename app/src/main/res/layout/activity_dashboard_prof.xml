@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context="com.example.myapplication.activities.gestion_comptes.gestion_prof.activity_dashboard_prof"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        android:layout_x="0dp"
+        android:layout_y="128dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bankcardId"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                tools:ignore="DuplicateClickableBoundsCheck">
+
+                <LinearLayout
+                    android:id="@+id/ll_visualiser_ETD_Niv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/icons8_student_male_80px_2"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Etudiants"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Visualiser les etudiants par niveau"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:id="@+id/prof_get_doc_etd"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                tools:ignore="DuplicateClickableBoundsCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/icons8_documents_128px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Documents"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Voir les documents des etudiants"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/icons8_graph_report_128px_4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Rapport d'état"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Télécharger le rapport d’état"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="71dp"
+                        android:layout_height="73dp"
+                        android:padding="10dp"
+                        android:src="@drawable/icons8_chart_80px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="statistiques"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Visualiser les statistiques"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:clipToPadding="false"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                tools:ignore="DuplicateClickableBoundsCheck">
+
+                <LinearLayout
+                    android:id="@+id/ll_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/icons8_more_info_80px_2"
+                        android:clickable="true"
+                        android:padding="10dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="mon profile"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="visualiser ou modifier mes informations"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="268dp"
+        android:layout_height="38dp"
+        android:layout_x="84dp"
+        android:layout_y="40dp"
+        android:text="Espace professeur"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</AbsoluteLayout>

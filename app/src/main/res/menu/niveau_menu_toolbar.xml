@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/search"
+       android:icon="@drawable/ic_baseline_search_24"
+       android:title="Search"
+       app:showAsAction="ifRoom|collapseActionView"
+       app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_baseline_update_24"
+        android:title="update"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.AppCompatButton"/>
+
+    <item
+        android:id="@+id/AjoutNiv"
+        android:title="Ajouter un niveau" />
+    <item
+        android:id="@+id/modifierNiv"
+        android:title="Modifier un niveau" />
+    <item
+        android:id="@+id/suppNIv"
+        android:title="Supprimer seul un niveau" />
+
+    <item
+    android:id="@+id/suppAllBtn"
+    android:title="Supprimer tous" />
+
+</menu>

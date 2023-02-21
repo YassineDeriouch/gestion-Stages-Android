@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile"
+    tools:context=".activities.gestion_comptes.gestion_etd.activity_profile_etd"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="72dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="137dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="289dp"
+        android:layout_x="125dp"
+        android:layout_y="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toStartOf="@+id/editer_info_etd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/etd_av_male" />
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="418dp"
+        android:layout_x="159dp"
+        android:layout_y="149dp"
+        android:text="Etudiant"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ID_ETD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="418dp"
+        android:layout_x="186dp"
+        android:layout_y="186dp"
+        android:text="ID_ETD"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/editer_info_etd"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="54dp"
+        android:layout_x="344dp"
+        android:layout_y="179dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/icons8_edit_100px_1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/edittEtdSave"
+        android:layout_width="199dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="37dp"
+        android:layout_x="103dp"
+        android:layout_y="671dp"
+        android:background="@color/teal_700"
+        android:text="Sauvegarder"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="319dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:outlineAmbientShadowColor="@color/purple_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/prenomEtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="prénom"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nomEtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="nom"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEtd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordEtd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="mot de passe"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</AbsoluteLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/viewRespo"
+        android:layout_width="402dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="100dp"
+        android:background="#C2C2C2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NomProfListTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="28dp"
+        android:text="nom-prenom"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/delete_iv5"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="24dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526"
+        app:srcCompat="@drawable/ic_baseline_delete_24"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/idProfListTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="ID_prof"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/NomProfListTV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/NomProfListTV"
+        app:layout_constraintTop_toBottomOf="@+id/NomProfListTV" />
+
+    <ImageView
+        android:id="@+id/prof_img_v"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prf"
+        tools:ignore="ImageContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

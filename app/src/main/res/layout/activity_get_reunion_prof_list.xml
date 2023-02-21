@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/viewRespo"
+        android:layout_width="402dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="110dp"
+        android:background="#C2C2C2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/libelle_reunionTV"
+        android:layout_width="311dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="libelle_reunion"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateReunionV"
+        android:layout_width="313dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:text="dateReunion"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/libelle_reunionTV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/libelle_reunionTV"
+        app:layout_constraintTop_toBottomOf="@+id/libelle_reunionTV" />
+
+    <TextView
+        android:id="@+id/salleReunionTV"
+        android:layout_width="314dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="28dp"
+        android:text="salleReunion"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/libelle_reunionTV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/libelle_reunionTV"
+        app:layout_constraintTop_toBottomOf="@+id/libelle_reunionTV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

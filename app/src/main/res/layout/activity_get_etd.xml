@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.gestion_comptes.gestion_etd.activity_get_etd">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/EtdList_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <View
+        android:id="@+id/noDataViewEtdList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/EtdList_recyclerView"
+        app:layout_constraintTop_toTopOf="@+id/EtdList_recyclerView" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FAB_etd_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="27dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_update_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+   <!-- <EditText
+        android:id="@+id/searchNivTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:ems="10"
+        android:hint="rechercher par niveau"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/searchNiv_IV"
+        android:layout_width="33dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_search_24"
+        tools:layout_editor_absoluteX="334dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

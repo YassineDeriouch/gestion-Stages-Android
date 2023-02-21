@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input"
+    tools:context=".activities.gestion_comptes.gestion_etd.activity_ajouter_etd">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="74dp"
+        android:layout_x="11dp"
+        android:layout_y="49dp"
+        android:text="Importer les étudiants"
+        android:textAlignment="center"
+        android:textColor="#F6F6F6"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <ImageView
+        android:id="@+id/importExcelEtd_iv"
+        android:layout_width="168dp"
+        android:layout_height="206dp"
+        android:layout_x="117dp"
+        android:layout_y="342dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ex"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_x="11dp"
+        android:layout_y="214dp"
+        android:text="importer le fichier excel en appuyant sur l'icon ci-dessous :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_x="116dp"
+        android:layout_y="569dp"
+        android:text="Format prise en charge : xlsx"
+        android:textColor="#F4511E"
+        android:textColorHighlight="#CA1010"
+        android:textSize="14sp" />
+
+</AbsoluteLayout>

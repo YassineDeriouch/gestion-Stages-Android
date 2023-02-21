@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input"
+    tools:context=".activities.gestion_comptes.gestion_respo.activity_creer_compte_respo"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="72dp">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="74dp"
+        android:layout_x="10dp"
+        android:layout_y="26dp"
+        android:text="Modifier un établissment"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="343dp"
+        android:layout_x="21dp"
+        android:layout_y="255dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/purple_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nom_etab_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="nom de l'établissement"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/purple_200"
+            app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idResp_etab_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="ID du responsable de stage"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/purple_200">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/desc_etab_update"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColorHint="#122FCF"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_valider_update_etab"
+        android:layout_width="224dp"
+        android:layout_height="58dp"
+        android:layout_x="98dp"
+        android:layout_y="674dp"
+        android:backgroundTint="#00ACC1"
+        android:text="Enregistrer"
+        android:textSize="16sp" />
+
+</AbsoluteLayout>
